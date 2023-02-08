@@ -1,6 +1,60 @@
-img {
+body {
+    background: linear-gradient(79.8deg, rgb(101, 132, 154) 3.2%, rgb(160, 197, 201) 89.1%);
+  }
+
+.botanical-tall {
      position: relative;
     max-width: 25%;
-    height: auto;
-        
+    height: auto;   
+}
+.botanical-wide {
+    position:relative;
+    max-width: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.sedona-wide {
+    position:relative;
+    max-width: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.sedona-tall {
+    position:relative;
+    max-width: 30%;
+    padding: 4%;
+}
+.victor-wide {
+    position:relative;
+    max-width: 30%;
+}
+.zoo-tall {
+    position:relative;
+    max-width: 30%;
+    padding: 4%;
+}
+.zoo-wide {
+    position:relative;
+    max-width: 30%;
+}
+.row-1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.row {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.row-5 {
+    text-align: center;
+    padding-top: 2%;
+}
+.bio {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: 'Courier New', Courier, monospace;
 }
