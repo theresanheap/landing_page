@@ -1,59 +1,106 @@
 body {
-    background: linear-gradient(79.8deg, rgb(101, 132, 154) 3.2%, rgb(160, 197, 201) 89.1%);
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    animation: fadeIn 4s;
   }
-.botanical-tall {
-     position: relative;
-    max-width: 25%;
-    height: auto;   
-}
-.botanical-wide {
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    color: #3663A1;
+    text-shadow: 0px 9px 22px rgba(110, 136, 161, 0.5);
+    padding-top: 6%;
+    padding-bottom: 2%;
+    margin: 0px;
+    }
+
+img {
+    transition: box-shadow .3s;
     position:relative;
     max-width: 30%;
-    padding-left: 4%;
-    padding-right: 4%;
+    border: 11px solid #EFEDE3;
+    margin: 4%;
+    box-shadow: 0px 5px 13px rgba(59, 62, 67, 0.6)
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+h1:hover {
+    font-size: 50px;
+    -webkit-transition:3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .2s;
+}
+
+img:hover {
+    box-shadow: 0px 16px 22px rgba(59, 62, 67, 0.6);
+      }
+
+
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: .8s ease;
+    }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 405,
+  'GRAD' 0,
+  'opsz' 48;
+}
+
+.bookmarks {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.links {
+    padding: 2%;
+    margin: 0px;
+    color: #3663A1;
+    text-decoration:none;
+}
+
+.links:hover {
+    color:rgb(51, 139, 147);
 
 }
-.sedona-wide {
-    position:relative;
-    max-width: 30%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-.sedona-tall {
-    position:relative;
-    max-width: 30%;
-    padding: 4%;
-}
-.victor-wide {
-    position:relative;
-    max-width: 30%;
-}
-.zoo-tall {
-    position:relative;
-    max-width: 30%;
-    padding: 4%;
-}
-.zoo-wide {
-    position:relative;
-    max-width: 30%;
-}
-.row-1 {
+
+.row-top {
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
-.row {
+
+.row-inner {
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.row-5 {
-    text-align: center;
-    padding-top: 2%;
-}
-.bio {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 10%;
+
+.author {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    padding-bottom: 6%;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  /* no errors in CSS validator */ 
