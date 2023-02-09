@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    animation: fadeIn 3s;
   }
 
 h1 {
@@ -122,3 +123,8 @@ h1:hover {
     padding-bottom: 6%;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
