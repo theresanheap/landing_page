@@ -12,11 +12,21 @@ h1 {
     padding-bottom: 2%;
     margin: 0px;
     color: #3663A1;
+    text-shadow: 0px 9px 22px rgba(110, 136, 161, 0.5);
 }
 
 iframe {
     display: block;
     margin: 0 auto;
+}
+
+img {
+    transition: box-shadow .3s;
+    position:relative;
+    max-width: 30%;
+    border: 11px solid #EFEDE3;
+    margin: 4%;
+    box-shadow: 0px 5px 13px rgba(59, 62, 67, 0.6)
 }
 
 h1:hover {
@@ -25,6 +35,11 @@ h1:hover {
     transition-timing-function: ease;
     transition-delay: .2s;
 }
+
+img:hover {
+    box-shadow: 0px 16px 22px rgba(59, 62, 67, 0.6);
+      }
+
 
 .color img{
     filter: grayscale(100%);
@@ -43,13 +58,17 @@ h1:hover {
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' 405,
   'GRAD' 0,
   'opsz' 48;
 }
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
 .bookmarks {
     text-align: center;
-    padding-bottom: 1%;
+    margin: 0 auto;
 }
 .links {
     padding: 2%;
@@ -61,35 +80,6 @@ h1:hover {
 .links:hover {
     color:rgb(51, 139, 147);
 
-}
-
-.botanical-wide {
-    position:relative;
-    max-width: 30%;
-    border: 10px solid #EFEDE3;
-    margin: 4%;
-
-}
-
-.sedona-wide {
-    position:relative;
-    max-width: 30%;
-    border: 10px solid #EFEDE3;
-    margin: 4%;
-}
-
-.sedona-tall {
-    position:relative;
-    max-width: 30%;
-    border: 10px solid white;
-    margin: 4%;
-}
-
-.zoo-tall {
-    position:relative;
-    max-width: 30%;
-    border: 10px solid #EFEDE3;
-    margin: 4%;
 }
 
 .row-1 {
