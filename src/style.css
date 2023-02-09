@@ -6,11 +6,14 @@ body {
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
-h1 {
+h1, h3 {
     color: rgba(239, 237, 227, 0.7);
     font-family: Trebuchet MS;
     font-weight: bold;
     text-align: center;
+}
+
+h1 {
     font-size: 5rem;
     margin-top: 30vh; 
   }
@@ -127,7 +130,7 @@ h1 {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: rgba(239, 237, 227, 0.7);
+  background: rgba(239, 237, 227, 0.6);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
