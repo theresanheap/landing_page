@@ -1,12 +1,19 @@
-body
-{
+body {
   margin: 0;
   padding: 0;
-  
   background: #232323;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
+
+h1 {
+    color: rgba(239, 237, 227, 0.7);
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 30vh; 
+  }
 
 #background-video {
     width: 100vw;
