@@ -4,14 +4,14 @@ body {
   }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Trebuchet MS;
     font-weight: normal;
     text-align: center;
     font-size: 40px;
-    color: #3663A1;
+    color: #2b4c7a;
     text-shadow: 0px 9px 22px rgba(110, 136, 161, 0.5);
     padding-top: 6%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     margin: 0px;
     }
 
