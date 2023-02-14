@@ -1,6 +1,14 @@
 body{
-    background-color: #9DA9C1;
+    background-image: linear-gradient(to bottom right, purple, orange);
 }
-li{
+.nl li{
     display: inline;
+}
+.sportsgrid{
+    --gap: 16px;
+    --num-cols: 4; 
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
 }
