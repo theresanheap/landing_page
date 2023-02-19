@@ -1,6 +1,9 @@
 body{
   background: rgb(225, 210, 255);
   animation: fadeIn 2s;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 h1{
   text-align: center;
